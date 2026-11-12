@@ -1,0 +1,149 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+    color: #222;
+}
+
+/* Header / Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e40af;
+    padding: 20px 8%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.logo span {
+    color: #facc15;
+}
+
+.logo-icon {
+    color: #facc15;
+    margin-right: 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 22px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #facc15;
+}
+
+/* Section Umum */
+section {
+    padding: 60px 8%;
+}
+
+/* Home */
+#home {
+    display: flex;
+    align-items: center;
+    min-height: 85vh;
+    gap: 30px;
+}
+
+.home-text h3 {
+    font-size: 22px;
+}
+
+.home-text h1 {
+    font-size: 38px;
+    margin: 8px 0 12px;
+}
+
+.home-text p {
+    line-height: 1.6;
+    max-width: 550px;
+}
+
+/* Tentang Saya */
+#about h2, #skills h2, #projects h2, #contact h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #1e40af;
+}
+
+.about-box {
+    background: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Keahlian */
+.skill-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-card {
+    background: white;
+    width: 160px;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #00000015;
+}
+
+/* Proyek */
+.project-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    width: 240px;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 3px 10px #00000015;
+}
+
+/* Kontak */
+#contact {
+    background: #1e40af;
+    color: white;
+}
+
+#contact h2 {
+    color: #facc15;
+}
+
+.contact-box {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #0f2a70;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
